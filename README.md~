@@ -1,2 +1,10 @@
 # cfg_2_keyring
+<<<<<<< HEAD
+
+`pip install keyring
+pip install keyrings.alt`
 Conversion de fichier de config en mot de passe stocké dans keyrin
+=======
+`pip install keyring
+  Conversion de fichier de config en mot de passe stocké dans keyrin
+>>>>>>> a81526c49499cc5971d37a413e7038ac57a56cf7
