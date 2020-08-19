@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Fichier de conversion dans le trousseau Keyring d'un fichier config
 """
@@ -8,8 +9,8 @@ config = configparser.ConfigParser()
 config.read('config.file')
 i=0
 for section in config.sections():
-	for clé,valeur in config.items(section):
-		keyring.set_password(section,clé,valeur.strip('\"'))
+	for cle,valeur in config.items(section):
+		keyring.set_password(section,cle,valeur.strip('\"'))
 		i= i+1
 print (str(i)+" lignes traitées")
 
