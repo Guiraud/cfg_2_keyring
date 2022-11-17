@@ -6,7 +6,7 @@ import configparser
 import keyring
 config = configparser.ConfigParser()
 # put here de config file you want to parse
-config.read('config.file')
+config.read('/etc/config.file')
 i=0
 for section in config.sections():
 	for cle,valeur in config.items(section):
